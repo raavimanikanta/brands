@@ -39,7 +39,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 app.listen(3000,()=>{
-  console.log("app is running successfully on port 3000")
+  console.log("The app is running successfully on port number 3000 and no error occured ")
 })
+
 
 module.exports = app;

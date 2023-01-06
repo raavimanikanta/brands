@@ -9,7 +9,8 @@ var router = express.Router();
 let brands = require('../public/jsondata/brands.json')
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.status(200).json(brands)
+  res.status(brands)
+  // res.render('index', { title: 'Express' });
   // res.render('index', { title: 'Express' });
 });
 
